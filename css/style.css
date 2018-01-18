@@ -1,0 +1,56 @@
+body {
+  padding-top: 65px;
+}
+
+footer {
+  background-color: rgb(207, 236, 208);
+  padding: 10px 0;
+}
+
+#skills article {
+  /* margin-top: 10px 0px; */
+}
+
+#skills .row {
+  margin-top: 30px;
+  margin-bottom: 50px;
+}
+
+#skills figure {
+  margin: 10px 30px;
+}
+
+#skills img {
+  height: 120px;
+}
+
+#skills figcaption {
+  margin-top: 10px;
+  font-size: 1.2rem;
+}
+
+@media (max-width: 575px) {
+  #skills figure {
+    margin: 10px 10px;
+  }
+  .img-wide {
+    height: auto !important;
+    width: 100%;
+  }
+}
+
+/* @media (min-width: 576px) and (max-width: 767px) {
+  #skills img {
+    height: 120px;
+  }
+} */
+
+/*
+@media (min-width: 768px) and (max-width: 991px) {
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+}
+
+@media (min-width: 1200px) {
+} */
