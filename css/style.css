@@ -1,27 +1,48 @@
 body {
   padding-top: 56px;
+  font-size: 1.1rem;
+  background: #ECE9E6;
+  background: -webkit-linear-gradient(#FFFFFF, #ECE9E6);
+  background: -o-linear-gradient(#FFFFFF, #ECE9E6);
+  background: linear-gradient(#FFFFFF, #DDEFBB);
 }
 
-footer {
-  background-color: rgb(207, 236, 208);
-  padding: 10px 0;
+#home {
+  position: absolute;
+  top:0;
 }
 
-header img {
+header {
+  padding: 30px 0;
+  background-color: #212529;
+  color: white;
+}
+
+header > img {
   height: 200px;
+  margin-bottom: 10px;
+}
+
+main > article {
+  margin: 50px 0px;
 }
 
 #about img {
   height: 140px;
 }
 
-#skills article {
-  /* margin-top: 10px 0px; */
+#about button {
+  border-width: 3px;
+  font-weight: 500;
+  font-size: 1.2rem;
+}
+
+#skills > article {
+  margin: 40px 0px;
 }
 
 #skills .row {
   margin-top: 30px;
-  margin-bottom: 50px;
 }
 
 #skills figure {
@@ -62,3 +83,29 @@ header img {
 
 @media (min-width: 1200px) {
 } */
+
+#contact a {
+  color: #212529;
+}
+
+#contact li {
+  margin: 5px 10px;
+}
+
+footer {
+  padding: 10px 0;
+  background-color: #212529;
+}
+
+footer a {
+  color: #ffffff;
+}
+
+footer p {
+  margin: 5px 0px;
+}
+
+.nav-anchor{
+  margin: -80px;
+  padding: 80px;
+}
