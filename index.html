@@ -14,18 +14,18 @@
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
   <link rel="stylesheet" type="text/css" href="css/style.css">
   <!-- Font Awesome -->
-  <!-- <script defer src="./fontawesome/fa-regular.min.js"></script> -->
   <script defer src="./fontawesome/fa-solid.min.js"></script>
+  <script defer src="./fontawesome/fa-brands.min.js"></script>
   <script src="./fontawesome/fontawesome.min.js"></script>
-  <!-- Tranglify -->
-  <script src="./js/trianglify.min.js"></script>
   <title>Oscar Wang</title>
 
 </head>
 
 <body>
+  <div id="home"></div>
+  <!-- Nav Starts -->
   <nav class="navbar navbar-expand navbar-light fixed-top bg-light">
-    <a class="navbar-brand" href="#">Home</a>
+    <a class="navbar-brand" href="#home">Home</a>
     <ul class="navbar-nav">
       <li class="nav-item">
         <a class="nav-link" href="#about">About</a>
@@ -34,24 +34,27 @@
         <a class="nav-link" href="#skills">Skills</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#portfolio">Portfolio</a>
+        <a class="nav-link" href="#contact">Contact</a>
       </li>
     </ul>
   </nav>
-  <div id="container" class="container">
-    <header class="text-center">
-      <img class="rounded-circle" src="./img/oscarwang.jpg" alt="Oscar Wang">
-      <h1 class=>Oscar Wang</h1>
-      <h2 class="text-muted">WANG, CHIH-HAO</h2>
-    </header>
-    <main>
-      <section>
-        <article id="about">
-          <h1 class="text-center">About</h1>
-          <hr />
-          <section class="row justify-content-center">
-            <article class="col-sm">
-              <h3 class="text-center">Education</h2>
+  <!-- Nav Ends -->
+  <!-- Header Starts -->
+  <header class="text-center">
+    <img class="rounded-circle" src="./img/oscarwang.jpg" alt="Oscar Wang">
+    <h1 class=>Oscar Wang</h1>
+    <h2 class="text-muted">WANG, CHIH-HAO</h2>
+  </header>
+  <!-- Header Ends -->
+  <!-- Main Starts -->
+  <main class="container">
+    <!-- About Starts -->
+    <article id="about">
+      <h1 class="nav-anchor text-center">About</h1>
+      <hr />
+      <section class="row justify-content-center">
+        <article class="col-sm">
+          <h3 class="text-center">Education</h2>
               <figure class="text-center">
                 <img src="./img/waseda.png" alt="Waseda University">
                 <figcaption>
@@ -71,137 +74,175 @@
             </article>
             <article class="col-sm">
               <h3 class="text-center">Introduction</h2>
-                <p>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum
+                <p class="text-center">
+                  Hello, I'm Oscar Wang! I'm a 21-year-old Computer Science Junior at Waseda University.
+                  I was a web designer at <a href="http://www.toshin.com/waseda/">Nagase Brothers Inc.</a> and
+                  a teacher assistant in Introduction to Programming at <a href="https://www.waseda.jp/top/en">Waseda University</a>.
+                  I am currently doing a one-year exchange at the <a href="http://www.nus.edu.sg/">National University of Singapore</a>, where I am taking
+                  courses in Software Engineering, Design and Analysis of Algorithms, Introduction to Artificial Intelligence,
+                  and Machine Learning.
                 </p>
+                <button type="button" class="btn btn-outline-dark"><i class="fas fa-download"></i> Download My Resume</button>
             </article>
           </section>
         </article>
-
+        <!-- About Ends -->
+        <!-- Skills Starts -->
         <article id="skills">
-          <h1 class="text-center">Skills</h1>
+          <h1 class="nav-anchor text-center">Skills</h1>
           <hr />
           <article>
             <h3 class="text-center">Languages</h3>
-            <div class="row justify-content-center">
-              <figure class="text-center">
-                <img src="./img/icons/java.png" alt="Java">
-                <figcaption>Java</figcaption>
-              </figure>
-              <figure class="text-center">
-                <img src="./img/icons/python.png" alt="Python">
-                <figcaption>Python</figcaption>
-              </figure>
-              <figure class="text-center">
-                <img src="./img/icons/c.png" alt="C">
-                <figcaption>C</figcaption>
-              </figure>
-            </div>
-          </article>
-          <article>
-            <h3 class="text-center">Web Development</h3>
-            <div class="row justify-content-center">
-              <figure class="text-center">
-                <img src="./img/icons/html.png" alt="HTML 5">
-                <figcaption>HTML 5</figcaption>
-              </figure>
-              <figure class="text-center">
-                <img src="./img/icons/css.png" alt="CSS 3">
-                <figcaption>CSS 3</figcaption>
-              </figure>
-              <figure class="text-center">
-                <img src="./img/icons/javascript.png" alt="JavaScript">
-                <figcaption>JavaScript</figcaption>
-              </figure>
-              <figure class="text-center">
-                <img src="./img/icons/bootstrap.png" alt="Bootstrap">
-                <figcaption>Bootstrap</figcaption>
-              </figure>
-              <figure class="text-center">
-                <img src="./img/icons/nodejs.png" alt="node.js">
-                <figcaption>node.js</figcaption>
-              </figure>
-              <figure class="text-center">
-                <img src="./img/icons/react.png" alt="React">
-                <figcaption>React</figcaption>
-              </figure>
-              <figure class="text-center">
-                <img src="./img/icons/redux.png" alt="Redux">
-                <figcaption>Redux</figcaption>
-              </figure>
-              <figure class="text-center">
-                <img class="img-wide" src="./img/icons/mongodb.png" alt="MongoDB">
-                <figcaption>MongoDB</figcaption>
-              </figure>
-            </div>
-          </article>
-          <article>
-            <h3 class="text-center">Tools and Environments</h3>
-            <div class="row justify-content-center">
-              <figure class="text-center">
-                <img src="./img/icons/git.png" alt="Git">
-                <figcaption>Git</figcaption>
-              </figure>
-              <figure class="text-center">
-                <img src="./img/icons/github.png" alt="GitHub">
-                <figcaption>GitHub</figcaption>
-              </figure>
-              <figure class="text-center">
-                <img src="./img/icons/intellij.png" alt="IntelliJ">
-                <figcaption>IntelliJ</figcaption>
-              </figure>
-              <figure class="text-center">
-                <img src="./img/icons/travisci.png" alt="Travis CI">
-                <figcaption>Travis CI</figcaption>
-              </figure>
-              <figure class="text-center">
-                <img src="./img/icons/digitalocean.png" alt="DigitalOcean">
-                <figcaption>DigitalOcean</figcaption>
-              </figure>
-              <figure class="text-center">
-                <img class="img-wide" src="./img/icons/mlab.png" alt="mLab">
-                <figcaption>mLab</figcaption>
-              </figure>
-            </div>
-          </article>
+          <div class="row justify-content-center">
+            <figure class="text-center">
+              <img src="./img/icons/java.png" alt="Java">
+              <figcaption>Java</figcaption>
+            </figure>
+            <figure class="text-center">
+              <img src="./img/icons/python.png" alt="Python">
+              <figcaption>Python</figcaption>
+            </figure>
+            <figure class="text-center">
+              <img src="./img/icons/c.png" alt="C">
+              <figcaption>C</figcaption>
+            </figure>
+          </div>
         </article>
-        <article id="portfolio">
-          <h1 class="text-center">Portfolio</h1>
+        <article>
+          <h3 class="text-center">Web Development</h3>
+          <div class="row justify-content-center">
+            <figure class="text-center">
+              <img src="./img/icons/html.png" alt="HTML 5">
+              <figcaption>HTML 5</figcaption>
+            </figure>
+            <figure class="text-center">
+              <img src="./img/icons/css.png" alt="CSS 3">
+              <figcaption>CSS 3</figcaption>
+            </figure>
+            <figure class="text-center">
+              <img src="./img/icons/javascript.png" alt="JavaScript">
+              <figcaption>JavaScript</figcaption>
+            </figure>
+            <figure class="text-center">
+              <img src="./img/icons/bootstrap.png" alt="Bootstrap">
+              <figcaption>Bootstrap</figcaption>
+            </figure>
+            <figure class="text-center">
+              <img src="./img/icons/nodejs.png" alt="node.js">
+              <figcaption>node.js</figcaption>
+            </figure>
+            <figure class="text-center">
+              <img src="./img/icons/react.png" alt="React">
+              <figcaption>React</figcaption>
+            </figure>
+            <figure class="text-center">
+              <img src="./img/icons/redux.png" alt="Redux">
+              <figcaption>Redux</figcaption>
+            </figure>
+            <figure class="text-center">
+              <img class="img-wide" src="./img/icons/mongodb.png" alt="MongoDB">
+              <figcaption>MongoDB</figcaption>
+            </figure>
+          </div>
         </article>
-      </section>
-    </main>
-  </div>
-  <footer class="footer">
-    <div class="container-fluid">
-      <ul class="list-inline">
-        <li class="text-center">
-          <a>GitHub</a>
+        <article>
+          <h3 class="text-center">Tools and Environments</h3>
+          <div class="row justify-content-center">
+            <figure class="text-center">
+              <img src="./img/icons/git.png" alt="Git">
+              <figcaption>Git</figcaption>
+            </figure>
+            <figure class="text-center">
+              <img src="./img/icons/github.png" alt="GitHub">
+              <figcaption>GitHub</figcaption>
+            </figure>
+            <figure class="text-center">
+              <img src="./img/icons/intellij.png" alt="IntelliJ">
+              <figcaption>IntelliJ</figcaption>
+            </figure>
+            <figure class="text-center">
+              <img src="./img/icons/travisci.png" alt="Travis CI">
+              <figcaption>Travis CI</figcaption>
+            </figure>
+            <figure class="text-center">
+              <img src="./img/icons/digitalocean.png" alt="DigitalOcean">
+              <figcaption>DigitalOcean</figcaption>
+            </figure>
+            <figure class="text-center">
+              <img class="img-wide" src="./img/icons/mlab.png" alt="mLab">
+              <figcaption>mLab</figcaption>
+            </figure>
+          </div>
+        </article>
+    </article>
+    <!-- Skills Ends -->
+    <!-- Contact Starts -->
+    <article id="contact">
+      <h1 class="nav-anchor text-center">Contact Me</h1>
+      <hr />
+      <ul class="list-inline text-center">
+        <li class="list-inline-item text-center">
+          <a href="https://github.com/OscarWang114">
+                <i class="fab fa-github fa-4x"></i>
+              </a>
+        </li>
+        <li class="list-inline-item text-center">
+          <a href="https://www.facebook.com/haohaowang.oscar">
+                <i class="fab fa-facebook fa-4x"></i>
+              </a>
+        </li>
+        <li class="list-inline-item text-center">
+          <a href="https://www.linkedin.com/in/oscarwang114/">
+                <i class="fab fa-linkedin fa-4x"></i>
+              </a>
+        </li>
+        <li class="list-inline-item text-center">
+          <a href="mailto:chihhaowang.oscar@gmail.com">
+                <i class="fas fa-envelope fa-4x"></i>
+              </a>
+        </li>
+        <li class="list-inline-item text-center">
+          <i class="fas fa-file-pdf fa-4x"></i>
         </li>
       </ul>
-      <p class="text-center">
-        Created with <span role="img" aria-label="Love">❤️</span> by <a href="https://github.com/OscarWang114" class="text-muted">Oscar Wang</a>
+    </article>
+    <!-- Contact Ends -->
+  </main>
+  <!-- Main Ends -->
+  <!-- Footer Starts -->
+  <footer class="footer">
+    <div class="container-fluid">
+      <p class="text-center text-muted">
+        The design layout of this website is inspired by <a href="https://github.com/bryanpanesa">@bryanpanesa</a> and <a href="https://github.com/stevensawtelle">@stevensawtelle</a>.
       </p>
-      <p class="text-center">Code licensed <a href="" class="text-muted">MIT</a>.</p>
+      <p class="text-center text-muted">
+        Created with <span role="img" aria-label="Love">❤️</span> by <a href="https://github.com/OscarWang114">Oscar Wang</a>
+      </p>
+      <p class="text-center text-muted">Code licensed <a href="">MIT</a>.</p>
     </div>
   </footer>
-  <!-- Tranglify Document Body -->
-  <script>
-  var target = document.body;
-var dimensions = target.getClientRects()[0];
-var pattern = Trianglify({
-  width: dimensions.width,
-  height: dimensions.height,
-  seed: 1,
-  x_colors: ['#ffffff', '#ffffff'],
-  y_colors: ['#FFFDE4', '#005AA7']
-  // x_colors: ['#ffffff', '#ffffff', '#ffffff', '#ffffff'],
-  // y_colors: ['#ffffff', '#E0EAFC', '#83a4d4', '#83a4d4']
-});
-target.style['background-image'] = 'url(' + pattern.png() + ')';
-</script>
+  <!-- Footer Ends -->
   <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" crossorigin="anonymous"></script>
+  <!-- JQuery smooth scroll -->
+  <script>
+  var $root = $('html, body');
+  $(document).ready(function(){
+    $(".navbar-brand, .nav-link").on('click', function(event) {
+      if (this.hash !== "") {
+        event.preventDefault();
+        var hash = this.hash;
+        $root.animate({
+          scrollTop: $(hash).offset().top
+        }, 800, function(){
+          window.location.hash = hash;
+        });
+      }
+    });
+  });
+</script>
 </body>
+
 </html>
