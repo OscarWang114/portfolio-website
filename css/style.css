@@ -64,7 +64,7 @@ main > article {
   }
   .img-wide {
     height: auto !important;
-    width: 100%;
+    width: 80%;
   }
 }
 
@@ -106,6 +106,6 @@ footer p {
 }
 
 .nav-anchor{
-  margin: -80px;
-  padding: 80px;
+  margin-top: -80px;
+  padding-top: 80px;
 }
