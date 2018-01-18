@@ -1,10 +1,18 @@
 body {
-  padding-top: 65px;
+  padding-top: 56px;
 }
 
 footer {
   background-color: rgb(207, 236, 208);
   padding: 10px 0;
+}
+
+header img {
+  height: 200px;
+}
+
+#about img {
+  height: 140px;
 }
 
 #skills article {
