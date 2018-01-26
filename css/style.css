@@ -7,11 +7,6 @@ body {
   background: linear-gradient(#FFFFFF, #DDEFBB);
 }
 
-#home {
-  position: absolute;
-  top:0;
-}
-
 header {
   padding: 30px 0;
   background-color: #212529;
@@ -27,8 +22,31 @@ main > article {
   margin: 50px 0px;
 }
 
+footer {
+  padding: 10px 0;
+  background-color: #212529;
+}
+
+footer a {
+  color: #ffffff;
+}
+
+footer p {
+  margin: 5px 0px;
+}
+
+#home {
+  position: absolute;
+  top:0;
+}
+
+#typed {
+  font-size: 1.2rem;
+}
+
 #about img {
   height: 140px;
+  margin-bottom: 10px;
 }
 
 #about button {
@@ -58,32 +76,6 @@ main > article {
   font-size: 1.2rem;
 }
 
-@media (max-width: 575px) {
-  #skills figure {
-    margin: 10px 10px;
-  }
-  .img-wide {
-    height: auto !important;
-    width: 80%;
-  }
-}
-
-/* @media (min-width: 576px) and (max-width: 767px) {
-  #skills img {
-    height: 120px;
-  }
-} */
-
-/*
-@media (min-width: 768px) and (max-width: 991px) {
-}
-
-@media (min-width: 992px) and (max-width: 1199px) {
-}
-
-@media (min-width: 1200px) {
-} */
-
 #contact a {
   color: #212529;
 }
@@ -92,20 +84,17 @@ main > article {
   margin: 5px 10px;
 }
 
-footer {
-  padding: 10px 0;
-  background-color: #212529;
-}
-
-footer a {
-  color: #ffffff;
-}
-
-footer p {
-  margin: 5px 0px;
-}
-
 .nav-anchor{
   margin-top: -80px;
   padding-top: 80px;
+}
+
+@media (max-width: 575px) {
+  #skills figure {
+    margin: 10px 10px;
+  }
+  .img-wide {
+    height: auto !important;
+    width: 80%;
+  }
 }
