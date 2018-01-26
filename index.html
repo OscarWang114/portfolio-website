@@ -17,6 +17,8 @@
   <script defer src="./fontawesome/fa-solid.min.js"></script>
   <script defer src="./fontawesome/fa-brands.min.js"></script>
   <script src="./fontawesome/fontawesome.min.js"></script>
+  <!-- Typed.js -->
+  <script src="./js/typed.min.js"></script>
   <title>Oscar Wang</title>
 
 </head>
@@ -44,6 +46,14 @@
     <img class="rounded-circle" src="./img/oscarwang.jpg" alt="Oscar Wang">
     <h1>Oscar Wang</h1>
     <h2 class="text-muted">WANG, CHIH-HAO</h2>
+    <div id="typed-strings">
+      <p>I love
+        <strong>programming, </strong>
+        <strong>idea sharing, </strong>
+        and
+        <strong> running.</strong></p>
+    </div>
+    <span id="typed"></span>
   </header>
   <!-- Header Ends -->
   <!-- Main Starts -->
@@ -80,7 +90,7 @@
                   a teacher assistant in the Introduction to Programming course.
                   I am currently doing a one-year exchange at the <a href="http://www.nus.edu.sg/">National University of Singapore</a>, where I am taking
                   courses in Software Engineering, Design and Analysis of Algorithms, Introduction to Artificial Intelligence,
-                  and Machine Learning.
+                  and Information Retrieval.
                 </p>
                 <div class="row justify-content-center">
                   <button type="button" class="btn btn-outline-dark center-block"><i class="fas fa-download"></i> Download My Resume</button>
@@ -178,6 +188,22 @@
         </article>
     </article>
     <!-- Skills Ends -->
+    <!-- Projects Starts-->
+    <article id="projects">
+      <div class="row justify-content-center">
+        <figure class="text-center">
+          <img src="./img/icons/html.png" alt="HTML 5">
+          <figcaption>HTML 5</figcaption>
+        </figure>
+        <figure class="text-center">
+          <img src="./img/icons/css.png" alt="CSS 3">
+          <figcaption>CSS 3</figcaption>
+        </figure>
+        <figure class="text-center">
+          <img src="./img/icons/javascript.png" alt="JavaScript">
+          <figcaption>JavaScript</figcaption>
+        </figure>
+    </article>
     <!-- Contact Starts -->
     <article id="contact">
       <h1 class="nav-anchor text-center">Contact Me</h1>
@@ -243,6 +269,13 @@
         });
       }
     });
+  });
+</script>
+<!-- Typed.js animation-->
+<script>
+  var typed = new Typed('#typed', {
+    typeSpeed: 30,
+    stringsElement: '#typed-strings'
   });
 </script>
 </body>
