@@ -30,8 +30,8 @@
 
 </head>
 
-<body>
-  <div id="home"></div>
+<body class="page">
+  <div id="home" class="home"></div>
   <!-- Nav Starts -->
   <nav class="navbar navbar-expand-sm navbar-light fixed-top bg-light">
     <a class="navbar-brand" href="#home">Home</a>
@@ -57,8 +57,8 @@
   </nav>
   <!-- Nav Ends -->
   <!-- Header Starts -->
-  <header class="text-center">
-    <img class="rounded-circle" src="./img/oscarwang.jpg" alt="Oscar Wang">
+  <header class="text-center header">
+    <img class="rounded-circle header__img" src="./img/oscarwang.jpg" alt="Oscar Wang">
     <h1>Oscar Wang</h1>
     <h2 class="text-muted">WANG, CHIH-HAO</h2>
     <div id="typed-strings">
@@ -67,20 +67,20 @@
         <strong>idea sharing, </strong> and
         <strong> running.</strong></p>
     </div>
-    <span id="typed"></span>
+    <span id="typed" class="header__typed"></span>
   </header>
   <!-- Header Ends -->
   <!-- Main Starts -->
-  <main class="container">
+  <main class="container main">
     <!-- About Starts -->
-    <article id="about">
+    <article id="about" class="main__article about">
       <h1 class="nav-anchor text-center">About</h1>
       <hr />
       <section class="row justify-content-center">
         <article class="col-sm">
           <h3 class="text-center">Education</h3>
           <figure class="text-center">
-            <img src="./img/waseda.png" alt="Waseda University">
+            <img class="about__img"src="./img/waseda.png" alt="Waseda University">
             <figcaption>
               <p><i class="fas fa-university fa-lg"></i> Waseda University</p>
               <p><i class="fas fa-map-marker-alt fa-lg"></i> Tokyo, Japan</p>
@@ -88,7 +88,7 @@
             </figcaption>
           </figure>
           <figure class="text-center">
-            <img src="./img/nus.png" alt="National University of Singapore">
+            <img class="about__img" src="./img/nus.png" alt="National University of Singapore">
             <figcaption>
               <p><i class="fas fa-university fa-lg"></i> National University of Singapore</p>
               <p><i class="fas fa-map-marker-alt fa-lg"></i> Singapore</p>
@@ -104,96 +104,96 @@
             of Algorithms, Introduction to Artificial Intelligence, and Information Retrieval.
           </p>
           <div class="row justify-content-center">
-            <button type="button" class="btn btn-outline-dark center-block"><i class="fas fa-download"></i> Download My Resume</button>
+            <button type="button" class="btn btn-outline-dark center-block btn--download"><i class="fas fa-download"></i> Download My Resume</button>
           </div>
         </article>
       </section>
     </article>
     <!-- About Ends -->
     <!-- Skills Starts -->
-    <article id="skills">
+    <article id="skills" class="main__article">
       <h1 class="nav-anchor text-center">Skills</h1>
       <hr />
-      <article>
+      <article class="skills-article">
         <h3 class="text-center">Programming Languages</h3>
-        <div class="row justify-content-center">
-          <figure class="text-center">
-            <img src="./img/icons/java.png" alt="Java">
-            <figcaption>Java</figcaption>
+        <div class="row justify-content-center skills-article__row">
+          <figure class="text-center skills-article__figure">
+            <img class="skills-article__img" src="./img/icons/java.png" alt="Java">
+            <figcaption class="skills-article__figcaption">Java</figcaption>
           </figure>
-          <figure class="text-center">
-            <img src="./img/icons/python.png" alt="Python">
-            <figcaption>Python</figcaption>
+          <figure class="text-center skills-article__figure">
+            <img class="skills-article__img" src="./img/icons/python.png" alt="Python">
+            <figcaption class="skills-article__figcaption">Python</figcaption>
           </figure>
-          <figure class="text-center">
-            <img src="./img/icons/c.png" alt="C">
-            <figcaption>C</figcaption>
+          <figure class="text-center skills-article__figure">
+            <img class="skills-article__img" src="./img/icons/c.png" alt="C">
+            <figcaption class="skills-article__figcaption">C</figcaption>
           </figure>
         </div>
       </article>
-      <article>
+      <article class="skills-article">
         <h3 class="text-center">Web Development</h3>
-        <div class="row justify-content-center">
-          <figure class="text-center">
-            <img src="./img/icons/html.png" alt="HTML 5">
-            <figcaption>HTML 5</figcaption>
+        <div class="row justify-content-center skills-article__row">
+          <figure class="text-center skills-article__figure">
+            <img class="skills-article__img" src="./img/icons/html.png" alt="HTML 5">
+            <figcaption class="skills-article__figcaption">HTML 5</figcaption>
           </figure>
-          <figure class="text-center">
-            <img src="./img/icons/css.png" alt="CSS 3">
-            <figcaption>CSS 3</figcaption>
+          <figure class="text-center skills-article__figure">
+            <img class="skills-article__img" src="./img/icons/css.png" alt="CSS 3">
+            <figcaption class="skills-article__figcaption">CSS 3</figcaption>
           </figure>
-          <figure class="text-center">
-            <img src="./img/icons/javascript.png" alt="JavaScript">
-            <figcaption>JavaScript</figcaption>
+          <figure class="text-center skills-article__figure">
+            <img class="skills-article__img" src="./img/icons/javascript.png" alt="JavaScript">
+            <figcaption class="skills-article__figcaption">JavaScript</figcaption>
           </figure>
-          <figure class="text-center">
-            <img src="./img/icons/bootstrap.png" alt="Bootstrap">
-            <figcaption>Bootstrap</figcaption>
+          <figure class="text-center skills-article__figure">
+            <img class="skills-article__img" src="./img/icons/bootstrap.png" alt="Bootstrap">
+            <figcaption class="skills-article__figcaption">Bootstrap</figcaption>
           </figure>
-          <figure class="text-center">
-            <img src="./img/icons/nodejs.png" alt="node.js">
-            <figcaption>node.js</figcaption>
+          <figure class="text-center skills-article__figure">
+            <img class="skills-article__img" src="./img/icons/nodejs.png" alt="node.js">
+            <figcaption class="skills-article__figcaption">node.js</figcaption>
           </figure>
-          <figure class="text-center">
-            <img src="./img/icons/react.png" alt="React">
-            <figcaption>React</figcaption>
+          <figure class="text-center skills-article__figure">
+            <img class="skills-article__img" src="./img/icons/react.png" alt="React">
+            <figcaption class="skills-article__figcaption">React</figcaption>
           </figure>
-          <figure class="text-center">
-            <img src="./img/icons/redux.png" alt="Redux">
-            <figcaption>Redux</figcaption>
+          <figure class="text-center skills-article__figure">
+            <img class="skills-article__img" src="./img/icons/redux.png" alt="Redux">
+            <figcaption class="skills-article__figcaption">Redux</figcaption>
           </figure>
-          <figure class="text-center">
-            <img class="figure__img--wide" src="./img/icons/mongodb.png" alt="MongoDB">
-            <figcaption>MongoDB</figcaption>
+          <figure class="text-center skills-article__figure">
+            <img class="skills-article__img--wide" src="./img/icons/mongodb.png" alt="MongoDB">
+            <figcaption class="skills-article__figcaption">MongoDB</figcaption>
           </figure>
         </div>
       </article>
-      <article>
+      <article class="skills-article">
         <h3 class="text-center">Tools and Environments</h3>
         <div class="row justify-content-center">
-          <figure class="text-center">
-            <img src="./img/icons/git.png" alt="Git">
-            <figcaption>Git</figcaption>
+          <figure class="text-center skills-article__figure">
+            <img class="skills-article__img" src="./img/icons/git.png" alt="Git">
+            <figcaption class="skills-article__figcaption">Git</figcaption>
           </figure>
-          <figure class="text-center">
-            <img src="./img/icons/github.png" alt="GitHub">
-            <figcaption>GitHub</figcaption>
+          <figure class="text-center skills-article__figure">
+            <img class="skills-article__img" src="./img/icons/github.png" alt="GitHub">
+            <figcaption class="skills-article__figcaption">GitHub</figcaption>
           </figure>
-          <figure class="text-center">
-            <img src="./img/icons/intellij.png" alt="IntelliJ">
-            <figcaption>IntelliJ IDEA</figcaption>
+          <figure class="text-center skills-article__figure">
+            <img class="skills-article__img" src="./img/icons/intellij.png" alt="IntelliJ">
+            <figcaption class="skills-article__figcaption">IntelliJ IDEA</figcaption>
           </figure>
-          <figure class="text-center">
-            <img src="./img/icons/travisci.png" alt="Travis CI">
-            <figcaption>Travis CI</figcaption>
+          <figure class="text-center skills-article__figure">
+            <img class="skills-article__img" src="./img/icons/travisci.png" alt="Travis CI">
+            <figcaption class="skills-article__figcaption">Travis CI</figcaption>
           </figure>
-          <figure class="text-center">
-            <img src="./img/icons/digitalocean.png" alt="DigitalOcean">
-            <figcaption>DigitalOcean</figcaption>
+          <figure class="text-center skills-article__figure">
+            <img class="skills-article__img" src="./img/icons/digitalocean.png" alt="DigitalOcean">
+            <figcaption class="skills-article__figcaption">DigitalOcean</figcaption>
           </figure>
-          <figure class="text-center">
-            <img class="figure__img--wide" src="./img/icons/mlab.png" alt="mLab">
-            <figcaption>mLab</figcaption>
+          <figure class="text-center skills-article__figure">
+            <img class="skills-article__img--wide" src="./img/icons/mlab.png" alt="mLab">
+            <figcaption class="skills-article__figcaption">mLab</figcaption>
           </figure>
         </div>
       </article>
@@ -248,31 +248,31 @@
     </article> -->
     <!-- Projects Ends -->
     <!-- Contact Starts -->
-    <article id="contact">
+    <article id="contact" class="main__article contact">
       <h1 class="nav-anchor text-center">Contact Me</h1>
       <hr />
       <ul class="list-inline text-center">
-        <li class="list-inline-item text-center">
-          <a href="https://github.com/OscarWang114">
+        <li class="list-inline-item text-center contact__list-item">
+          <a class="contact__anchor" href="https://github.com/OscarWang114">
                 <i class="fab fa-github fa-4x"></i>
               </a>
         </li>
-        <li class="list-inline-item text-center">
-          <a href="https://www.facebook.com/haohaowang.oscar">
+        <li class="list-inline-item text-center contact__list-item">
+          <a class="contact__anchor" href="https://www.facebook.com/haohaowang.oscar">
                 <i class="fab fa-facebook fa-4x"></i>
               </a>
         </li>
-        <li class="list-inline-item text-center">
-          <a href="https://www.linkedin.com/in/oscarwang114/">
+        <li class="list-inline-item text-center contact__list-item">
+          <a class="contact__anchor" href="https://www.linkedin.com/in/oscarwang114/">
                 <i class="fab fa-linkedin fa-4x"></i>
               </a>
         </li>
-        <li class="list-inline-item text-center">
-          <a href="mailto:chihhaowang.oscar@gmail.com">
+        <li class="list-inline-item text-center contact__list-item">
+          <a class="contact__anchor" href="mailto:chihhaowang.oscar@gmail.com">
                 <i class="fas fa-envelope fa-4x"></i>
               </a>
         </li>
-        <li class="list-inline-item text-center">
+        <li class="list-inline-item text-center contact__list-item">
           <i class="fas fa-file-pdf fa-4x"></i>
         </li>
       </ul>
@@ -283,13 +283,13 @@
   <!-- Footer Starts -->
   <footer class="footer">
     <div class="container-fluid">
-      <p class="text-center text-muted">
-        The design layout of this website is inspired by <a href="https://github.com/bryanpanesa">@bryanpanesa</a> and <a href="https://github.com/stevensawtelle">@stevensawtelle</a>.
+      <p class="text-center text-muted footer__text">
+        The design layout of this website is inspired by <a class="footer__anchor" href="https://github.com/bryanpanesa">@bryanpanesa</a> and <a class="footer__anchor" href="https://github.com/stevensawtelle">@stevensawtelle</a>.
       </p>
-      <p class="text-center text-muted">
-        Created with <span role="img" aria-label="Love">❤️</span> by <a href="https://github.com/OscarWang114">Oscar Wang</a>
+      <p class="text-center text-muted footer__text">
+        Created with <span role="img" aria-label="Love">❤️</span> by <a class="footer__anchor" href="https://github.com/OscarWang114">Oscar Wang</a>
       </p>
-      <p class="text-center text-muted">Code licensed <a href="">MIT</a>.</p>
+      <p class="text-center text-muted footer__text">Code licensed <a class="footer__anchor" href="">MIT</a>.</p>
     </div>
   </footer>
   <!-- Footer Ends -->

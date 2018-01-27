@@ -1,4 +1,4 @@
-body {
+.page {
   padding-top: 56px;
   font-size: 1.1rem;
   background: #ECE9E6;
@@ -7,81 +7,28 @@ body {
   background: linear-gradient(#FFFFFF, #DDEFBB);
 }
 
-header {
+.home {
+  position: absolute;
+  top:0;
+}
+
+.header {
   padding: 30px 0;
   background-color: #212529;
   color: white;
 }
 
-header > img {
+.header__img {
   height: 200px;
   margin-bottom: 10px;
 }
 
-main > article {
+.header__typed {
+  font-size: 1.2rem;
+}
+
+.main__article {
   margin: 50px 0px;
-}
-
-footer {
-  padding: 10px 0;
-  background-color: #212529;
-}
-
-footer a {
-  color: #ffffff;
-}
-
-footer p {
-  margin: 5px 0px;
-}
-
-#home {
-  position: absolute;
-  top:0;
-}
-
-#typed {
-  font-size: 1.2rem;
-}
-
-#about img {
-  height: 140px;
-  margin-bottom: 10px;
-}
-
-#about button {
-  border-width: 3px;
-  font-weight: 500;
-  font-size: 1.2rem;
-}
-
-#skills > article {
-  margin: 40px 0px;
-}
-
-#skills .row {
-  margin-top: 30px;
-}
-
-#skills figure {
-  margin: 10px 30px;
-}
-
-#skills img {
-  height: 120px;
-}
-
-#skills figcaption {
-  margin-top: 10px;
-  font-size: 1.2rem;
-}
-
-#contact a {
-  color: #212529;
-}
-
-#contact li {
-  margin: 5px 10px;
 }
 
 .nav-anchor{
@@ -89,12 +36,69 @@ footer p {
   padding-top: 80px;
 }
 
+.about__img {
+  height: 140px;
+  margin-bottom: 10px;
+}
+
+.btn--download {
+  border-width: 3px;
+  font-weight: 500;
+  font-size: 1.2rem;
+}
+
+.skills-article {
+  margin: 40px 0px;
+}
+
+.skills-article__row {
+  margin-top: 30px;
+}
+
+.skills-article__figure {
+  margin: 10px 30px;
+}
+
+.skills-article__img {
+  height: 120px;
+}
+
+.skills-article__img--wide {
+  height: 120px;
+}
+
+.skills-article__figcaption {
+  margin-top: 10px;
+  font-size: 1.2rem;
+}
+
+.contact__anchor {
+  color: #212529;
+}
+
+.contact__list-item {
+  margin: 5px 10px;
+}
+
 @media (max-width: 575px) {
-  #skills figure {
+  .skills-article__figure {
     margin: 10px 10px;
   }
-  .img-wide {
+  .skills-article__img--wide {
     height: auto !important;
     width: 80%;
   }
+}
+
+.footer {
+  padding: 10px 0;
+  background-color: #212529;
+}
+
+.footer__anchor {
+  color: #ffffff;
+}
+
+.footer__text {
+  margin: 5px 0px;
 }
