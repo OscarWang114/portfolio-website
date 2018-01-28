@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
   <!-- Required meta tags -->
@@ -31,6 +31,119 @@
 </head>
 
 <body class="page">
+  <!-- WaseTime Modal Starts-->
+  <div class="modal fade wasetime-modal" id="wasetime-modal" tabindex="-1" role="dialog" aria-labelledby="wasetime-modal-label" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <article class="modal-content">
+        <header class="modal-header">
+          <h5 class="modal-title" id="wasetime-modal-label">WaseTime</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </header>
+        <section class="modal-body">
+          <p class="text-center modal__text">
+            WaseTime is an unofficial web app for syllabus searching, classroom finding, and bus schedule checking at Waseda University.
+          </p>
+          <div class="row justify-content-center">
+            <a href="https://wasetime.com" class="btn-lg btn-success" role="button">
+              Website <i class="fas fa-external-link-alt fa-1x"></i>
+            </a>
+          </div>
+          <p class="text-center modal__text">
+            This is an open source project I initiated to provide a convenient information platform for Waseda Students.
+          </p>
+          <div class="modal__badges">
+            <span class="badge badge-success">Node.js</span>
+            <span class="badge badge-success">Express.js</span>
+            <span class="badge badge-success">Create React App</span>
+            <span class="badge badge-success">React</span>
+            <span class="badge badge-success">Redux</span>
+            <span class="badge badge-success">MongoDB</span>
+            <span class="badge badge-success">Travis CI</span>
+            <span class="badge badge-success">Git</span>
+          </div>
+        </section>
+        <footer class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        </footer>
+      </article>
+    </div>
+  </div>
+  <!-- WaseTime Modal Ends-->
+  <!-- Waseda Syllabus Scraper Modal Starts-->
+  <div class="modal fade waseda-syllabus-scraper-modal" id="waseda-syllabus-scraper-modal" tabindex="-1" role="dialog" aria-labelledby="waseda-syllabus-scraper-modal-label" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <article class="modal-content">
+        <header class="modal-header">
+          <h5 class="modal-title" id="waseda-syllabus-scraper-modal-label">Waseda Syllabus Scraper</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </header>
+        <section class="modal-body">
+          <p class="text-center modal__text">
+            Waseda Syllabus Scraper is a web scraper that collects course information from the <a href="https://www.wsl.waseda.jp/syllabus/JAA101.php?pLng=en">syllabus database at Waseda University</a>.
+          </p>
+          <div class="row justify-content-center">
+            <a href="https://github.com/wasetime/waseda-syllabus-scraper" class="btn-lg btn-success" role="button">
+              Source Code <i class="fas fa-external-link-alt fa-1x"></i>
+            </a>
+          </div>
+          <p class="text-center modal__text">
+            This is an open source project I initiated to provide course, classroom, and building data for WaseTime.
+          </p>
+          <div class="modal__badges">
+            <span class="badge badge-success">Python</span>
+            <span class="badge badge-success">Scrapy</span>
+            <span class="badge badge-success">Selenium</span>
+            <span class="badge badge-success">JavaScript</span>
+            <span class="badge badge-success">MongoDB</span>
+          </div>
+        </section>
+        <footer class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        </footer>
+      </article>
+    </div>
+  </div>
+  <!-- Waseda Syllabus Scraper Modal Ends-->
+  <!-- LISA Modal Starts -->
+  <div class="modal fade lisa-modal" id="lisa-modal" tabindex="-1" role="dialog" aria-labelledby="lisa-modal-label" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <article class="modal-content">
+        <header class="modal-header">
+          <h5 class="modal-title" id="lisa-modal-label">LISA: Levels Integrated Secretarial Agent</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </header>
+        <section class="modal-body">
+          <p class="text-center modal__text">
+            LISA is a managerial desktop application created for life insurance agents to document the complex relationship between clients and contractors.
+          </p>
+          <div class="row justify-content-center">
+            <a href="https://github.com/CS2103AUG2017-T13-B1/main" class="btn-lg btn-success" role="button">
+              Source Code <i class="fas fa-external-link-alt fa-1x"></i>
+            </a>
+          </div>
+          <p class="text-center modal__text">
+            This is a five-man team project completed in a software engineering course.
+          </p>
+          <div class="modal__badges">
+            <span class="badge badge-success">Java</span>
+            <span class="badge badge-success">JUnit</span>
+            <span class="badge badge-success">Gradle</span>
+            <span class="badge badge-success">Travis CI</span>
+          </div>
+        </section>
+        <footer class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        </footer>
+      </article>
+    </div>
+  </div>
+  <!-- LISA Modal Ends -->
   <div id="home" class="home"></div>
   <!-- Nav Starts -->
   <nav class="navbar navbar-expand-sm navbar-light fixed-top bg-light">
@@ -80,7 +193,7 @@
         <article class="col-sm">
           <h3 class="text-center">Education</h3>
           <figure class="text-center">
-            <img class="about__img"src="./img/waseda.png" alt="Waseda University">
+            <img class="about__img" src="./img/waseda.png" alt="Waseda University">
             <figcaption>
               <p><i class="fas fa-university fa-lg"></i> Waseda University</p>
               <p><i class="fas fa-map-marker-alt fa-lg"></i> Tokyo, Japan</p>
@@ -114,7 +227,7 @@
     <article id="skills" class="main__article">
       <h1 class="nav-anchor text-center">Skills</h1>
       <hr />
-      <article class="skills-article">
+      <article class="skills__article skills-article">
         <h3 class="text-center">Programming Languages</h3>
         <div class="row justify-content-center skills-article__row">
           <figure class="text-center skills-article__figure">
@@ -200,52 +313,57 @@
     </article>
     <!-- Skills Ends -->
     <!-- Projects Starts -->
-    <!-- <article id="projects">
+    <article id="projects" class="projects">
       <h1 class="nav-anchor text-center">Projects</h1>
       <hr />
-      <article>
+      <article class="projects__article projects-article wasetime">
         <h3 class="text-center">WaseTime</h3>
         <div class="row justify-content-center">
-          <figure class="text-center">
-            <img class="" src="./img/projects/wasetime-home.png" alt="WaseTime Home">
-            <figcaption>Home</figcaption>
-          </figure>
-          <figure class="text-center">
-            <img src="./img/projects/wasetime-syllabus.png" alt="WaseTime Syllabus">
-            <figcaption>Syllabus</figcaption>
-          </figure>
-          <figure class="text-center">
-            <img src="./img/projects/wasetime-roomfinder.png" alt="WaseTime Room Finder">
-            <figcaption>RoomFinder</figcaption>
-          </figure>
+            <img srcset="./img/projects/wasetime-home-640w.png 640w,
+                         ./img/projects/wasetime-home-2024w.png 2024w"
+                 sizes="(max-width: 575px) 300px,
+                        70vw"
+                 src="./img/projects/wasetime-home-640w.png" alt="WaseTime Home">
+        </div>
+        <div class="row justify-content-center projects-article__learn-more">
+          <button type="button" class="btn-lg btn-success projects-article__btn" data-toggle="modal" data-target="#wasetime-modal">
+            Learn More
+          </button>
         </div>
       </article>
-      <article>
+      <article class="projects__article projects-article waseda-syllabus-scraper">
         <h3 class="text-center">Waseda Syllabus Scraper</h3>
         <div class="row justify-content-center">
           <figure class="text-center">
-            <img src="./img/projects/scrapy.png" alt="Scrapy">
+            <img class="waseda-syllabus-scraper__img" src="./img/projects/scrapy.png" alt="Scrapy">
             <figcaption>Scrapy</figcaption>
           </figure>
           <figure class="text-center">
-            <img src="./img/projects/selenium.png" alt="Selenium">
+            <img class="waseda-syllabus-scraper__img" src="./img/projects/selenium.png" alt="Selenium">
             <figcaption>Selenium</figcaption>
           </figure>
         </div>
-      </article>
-      <article>
-        <h3 class="text-center">LISA: Levels Integrated Secretarial Agent</h3>
-        <div class="row justify-content-center">
-          <figure class="text-center">
-            <img class="figure__img--wide" src="./img/projects/lisa.png" alt="LISA: Levels Integrated Secretarial Agent">
-            <figcaption>LISA: Levels Integrated Secretarial Agent</figcaption>
-          </figure>
+        <div class="row justify-content-center projects-article__learn-more">
+          <button type="button" class="btn-lg btn-success" data-toggle="modal" data-target="#waseda-syllabus-scraper-modal">
+            Learn More
+          </button>
         </div>
       </article>
-      <p>
+      <article class="projects__article projects-article lisa">
+        <h3 class="text-center">LISA: Levels Integrated Secretarial Agent</h3>
+        <div class="row justify-content-center">
+          <img class="lisa__img" src="./img/projects/lisa.png" alt="LISA: Levels Integrated Secretarial Agent">
+        </div>
+        <div class="row justify-content-center projects-article__learn-more">
+          <button type="button" class="btn-lg btn-success" data-toggle="modal" data-target="#lisa-modal">
+            Learn More
+          </button>
+        </div>
+      </article>
+      <p class="text-center projects__text">
         More available on <a href="https://github.com/OscarWang114">my GitHub profile</a>!
       </p>
-    </article> -->
+    </article>
     <!-- Projects Ends -->
     <!-- Contact Starts -->
     <article id="contact" class="main__article contact">
