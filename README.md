@@ -7,7 +7,7 @@ This is a repository for my portfolio website. Please visit it at [www.oscarwang
 * HTML5
 * CSS3
 * JavaScript
-* [JQuery](https://jquery.com/)
+* [jQuery](https://jquery.com/)
 * [Bootstrap](https://getbootstrap.com/)
 * [Font Awesome](https://fontawesome.com/)
 * [Typed.js](https://github.com/mattboldt/typed.js/)
