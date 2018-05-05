@@ -67,11 +67,11 @@
 }
 
 .skills-article__img {
-  height: 120px;
+  height: 100px;
 }
 
 .skills-article__img--wide {
-  height: 120px;
+  height: 100px;
 }
 
 .skills-article__figcaption {
@@ -108,7 +108,7 @@
 }
 
 .lisa__row {
-  margin: 0px -15px;  
+  margin: 0px -15px;
 }
 
 .lisa__img {
