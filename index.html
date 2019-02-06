@@ -32,15 +32,15 @@
   <!-- Global site tag (gtag.js) - Google Analytics -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=UA-112185819-2"></script>
   <script>
-    window.dataLayer = window.dataLayer || [];
+  window.dataLayer = window.dataLayer || [];
 
-    function gtag() {
-      dataLayer.push(arguments);
-    }
-    gtag('js', new Date());
+function gtag() {
+  dataLayer.push(arguments);
+}
+gtag('js', new Date());
 
-    gtag('config', 'UA-112185819-2');
-  </script>
+gtag('config', 'UA-112185819-2');
+</script>
   <title>Oscar Wang</title>
 </head>
 
@@ -179,9 +179,9 @@
         <li class="nav-item">
           <a class="nav-link" href="#contact">Contact</a>
         </li>
-        <li class="nav-item">
+        <!-- <li class="nav-item">
           <a class="nav-link" href="./blog">Blog</a>
-        </li>
+        </li> -->
       </ul>
     </div>
   </nav>
@@ -208,25 +208,6 @@
       <hr />
       <section class="row justify-content-center">
         <article class="col-sm">
-          <h3 class="text-center">Education</h3>
-          <figure class="text-center">
-            <img class="about__img" src="./img/waseda.png" alt="Waseda University">
-            <figcaption>
-              <p><i class="fas fa-university fa-lg"></i> Waseda University</p>
-              <p><i class="fas fa-map-marker-alt fa-lg"></i> Tokyo, Japan</p>
-              <p><i class="fas fa-calendar-alt fa-lg"></i> September 2015 - (Expected) August 2020</p>
-            </figcaption>
-          </figure>
-          <figure class="text-center">
-            <img class="about__img" src="./img/nus.png" alt="National University of Singapore">
-            <figcaption>
-              <p><i class="fas fa-university fa-lg"></i> National University of Singapore</p>
-              <p><i class="fas fa-map-marker-alt fa-lg"></i> Singapore</p>
-              <p><i class="fas fa-calendar-alt fa-lg"></i> August 2017 - May 2018</p>
-            </figcaption>
-          </figure>
-        </article>
-        <article class="col-sm">
           <h3 class="text-center">Introduction</h3>
           <p class="text-center">
             Hello, I'm Oscar Wang! I'm a 21-year-old Computer Science Junior at <a href="https://www.waseda.jp/top/en">Waseda University</a>. I've worked as a web designer at <a href="http://www.toshin.com/waseda/">Nagase Brothers Inc.</a> and a teacher
@@ -243,10 +224,29 @@
             </a>
           </div>
           <div class="row justify-content-center">
-            <a href="./WANG, CHIH-HAO GradeReport.pdf" download>
+            <a href="./WANG, CHIH-HAO Grade Report.pdf" download>
               <button type="button" class="btn btn-outline-dark center-block btn--download"><i class="fas fa-download"></i> Download My Grade Report</button>
             </a>
           </div>
+        </article>
+        <article class="col-sm">
+          <h3 class="text-center">Education</h3>
+          <figure class="text-center">
+            <img class="about__img" src="./img/waseda.png" alt="Waseda University">
+            <figcaption>
+              <p><i class="fas fa-university fa-lg"></i> Waseda University (GPA 3.96)</p>
+              <p><i class="fas fa-map-marker-alt fa-lg"></i> Tokyo, Japan</p>
+              <p><i class="fas fa-calendar-alt fa-lg"></i> September 2015 - April 2020</p>
+            </figcaption>
+          </figure>
+          <figure class="text-center">
+            <img class="about__img" src="./img/nus.png" alt="National University of Singapore">
+            <figcaption>
+              <p><i class="fas fa-university fa-lg"></i> National University of Singapore</p>
+              <p><i class="fas fa-map-marker-alt fa-lg"></i> Singapore</p>
+              <p><i class="fas fa-calendar-alt fa-lg"></i> August 2017 - May 2018</p>
+            </figcaption>
+          </figure>
         </article>
       </section>
     </article>
@@ -453,29 +453,33 @@
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" crossorigin="anonymous"></script>
   <!-- JQuery smooth scroll -->
   <script>
-    var $root = $('html, body');
-    $(document).ready(function() {
-      $(".navbar-brand, .nav-link").on('click', function(event) {
-        if (this.hash !== "") {
-          event.preventDefault();
-          console.log(this.hash);
-          var hash = this.hash;
-          $root.animate({
-            scrollTop: $(hash).offset().top
-          }, 800, function() {
-            window.location.hash = hash;
-          });
+  var $root = $('html, body');
+$(document).ready(function() {
+  $('.navbar-brand, .nav-link').on('click', function(event) {
+    if (this.hash !== '') {
+      event.preventDefault();
+      console.log(this.hash);
+      var hash = this.hash;
+      $root.animate(
+        {
+          scrollTop: $(hash).offset().top
+        },
+        800,
+        function() {
+          window.location.hash = hash;
         }
-      });
-    });
-  </script>
+      );
+    }
+  });
+});
+</script>
   <!-- Typed.js animation-->
   <script>
-    var typed = new Typed('#typed', {
-      typeSpeed: 30,
-      stringsElement: '#typed-strings'
-    });
-  </script>
+  var typed = new Typed('#typed', {
+  typeSpeed: 30,
+  stringsElement: '#typed-strings'
+});
+</script>
 </body>
 
 </html>
