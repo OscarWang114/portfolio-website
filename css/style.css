@@ -55,6 +55,25 @@
   font-size: 1.2rem;
 }
 
+.experience__img {
+  height: 120px;
+  margin-bottom: 10px;
+}
+
+.experience__img--wide {
+  height: auto;
+  width: 250px;
+  margin-bottom: 10px;
+}
+
+.experience__ol {
+  list-style: initial;
+}
+
+.experience__li {
+  margin-left: 12px;
+}
+
 .skills__article {
   margin: 40px 0px;
 }
