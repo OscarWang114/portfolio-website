@@ -1,6 +1,6 @@
-# OscarWang114.github.io
+# OscarWang114.com
 
-This is a repository for my portfolio website. Please visit it at [www.oscarwang114.me](https://www.oscarwang114.me). I can't wait to see you there!
+This is a repository for my portfolio website. Please visit it at [www.oscarwang114.com](https://www.oscarwang114.com). I can't wait to see you there!
 
 ## Built With
 
