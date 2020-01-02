@@ -56,16 +56,16 @@ gtag('config', 'UA-112185819-2');
           </button>
         </header>
         <section class="modal-body">
-          <p class="text-center modal__text">
+          <p class="modal__text">
             WasedaTime is an unofficial web app for syllabus searching, classroom finding, and bus schedule checking at Waseda University.
           </p>
           <div class="row justify-content-center">
-            <a href="https://wasedatime.com" class="btn-lg btn-success" role="button">
+            <a href="https://wasedatime.com" class="btn btn-success" role="button">
               Website <i class="fas fa-external-link-alt fa-1x"></i>
             </a>
           </div>
-          <p class="text-center modal__text">
-            This is an open source project I initiated to provide a convenient information platform for Waseda Students. It has acquired around 5,000 users currently.
+          <p class="modal__text">
+            This is an open source project I initiated to provide a convenient information platform for Waseda Students. It has acquired more than 4,000 returning users and over 300K page views.
           </p>
           <div class="modal__badges">
             <span class="badge badge-success">Node.js</span>
@@ -85,8 +85,40 @@ gtag('config', 'UA-112185819-2');
     </div>
   </div>
   <!-- WasedaTime Modal Ends-->
+  <!-- Sentiment Analysis Modal Starts-->
+  <div class="modal fade sentiment-analysis-modal" id="sentiment-analysis-modal" tabindex="-1" role="dialog" aria-labelledby="sentiment-analysis-modal-label" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <article class="modal-content">
+        <header class="modal-header">
+          <h5 class="modal-title" id="sentiment-analysis-modal-label">Sentiment Analysis on Movie Reviews</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </header>
+        <section class="modal-body">
+          <p class="modal__text">
+            In this project, I investigated various Deep Neural Networks for a kaggle challenge on sentiment classification of IMDb movie reviews. In the end, I achieved an AUC score above 0.90 on the test dataset with FastText embeddings, CNN, and BiLSTM.
+          </p>
+          <div class="row justify-content-center">
+            <a href="https://github.com/OscarWang114/sentiment-analysis-imdb" class="btn btn-success" role="button">
+              Source Code <i class="fas fa-external-link-alt fa-1x"></i>
+            </a>
+          </div>
+          <div class="modal__badges">
+            <span class="badge badge-success">Python</span>
+            <span class="badge badge-success">NLTK</span>
+            <span class="badge badge-success">Keras</span>
+          </div>
+        </section>
+        <footer class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        </footer>
+      </article>
+    </div>
+  </div>
+  <!-- Sentiment Analysis Modal Ends-->
   <!-- Waseda Syllabus Scraper Modal Starts-->
-  <div class="modal fade waseda-syllabus-scraper-modal" id="waseda-syllabus-scraper-modal" tabindex="-1" role="dialog" aria-labelledby="waseda-syllabus-scraper-modal-label" aria-hidden="true">
+<!--   <div class="modal fade waseda-syllabus-scraper-modal" id="waseda-syllabus-scraper-modal" tabindex="-1" role="dialog" aria-labelledby="waseda-syllabus-scraper-modal-label" aria-hidden="true">
     <div class="modal-dialog" role="document">
       <article class="modal-content">
         <header class="modal-header">
@@ -96,15 +128,15 @@ gtag('config', 'UA-112185819-2');
           </button>
         </header>
         <section class="modal-body">
-          <p class="text-center modal__text">
+          <p class="modal__text">
             Waseda Syllabus Scraper is an automated web scraper that collects course information from the <a href="https://www.wsl.waseda.jp/syllabus/JAA101.php?pLng=en">syllabus database at Waseda University</a>.
           </p>
           <div class="row justify-content-center">
-            <a href="https://github.com/wasedatime/waseda-syllabus-scraper" class="btn-lg btn-success" role="button">
+            <a href="https://github.com/wasedatime/waseda-syllabus-scraper" class="btn btn-success" role="button">
               Source Code <i class="fas fa-external-link-alt fa-1x"></i>
             </a>
           </div>
-          <p class="text-center modal__text">
+          <p class="modal__text">
             This is an open source project I initiated to provide course, classroom, and building data for WasedaTime.
           </p>
           <div class="modal__badges">
@@ -120,7 +152,7 @@ gtag('config', 'UA-112185819-2');
         </footer>
       </article>
     </div>
-  </div>
+  </div> -->
   <!-- Waseda Syllabus Scraper Modal Ends-->
   <!-- LISA Modal Starts -->
   <div class="modal fade lisa-modal" id="lisa-modal" tabindex="-1" role="dialog" aria-labelledby="lisa-modal-label" aria-hidden="true">
@@ -133,16 +165,16 @@ gtag('config', 'UA-112185819-2');
           </button>
         </header>
         <section class="modal-body">
-          <p class="text-center modal__text">
-            LISA is a managerial desktop application created for life insurance agents to document the complex relationship between clients and contractors.
+          <p class="modal__text">
+            LISA is a desktop managerial application created for life insurance agents to document the complex relationship between clients and contractors.
           </p>
           <div class="row justify-content-center">
-            <a href="https://github.com/CS2103AUG2017-T13-B1/main" class="btn-lg btn-success" role="button">
+            <a href="https://github.com/CS2103AUG2017-T13-B1/main" class="btn btn-success" role="button">
               Source Code <i class="fas fa-external-link-alt fa-1x"></i>
             </a>
           </div>
-          <p class="text-center modal__text">
-            This is a five-man team project completed in a software engineering course.
+          <p class="modal__text">
+            This is a five-person team project completed in a software engineering course. My main contributions include: <br>1. Created the life insurance component. <br>2. Created functions for adding, storing, and reading life insurances. <br>3. Designed an original model for expressing one-to-many relationships between a person and life insurances using JavaFX data structures. <br>4. Created tests and documentation for all the enhancements I made.
           </p>
           <div class="modal__badges">
             <span class="badge badge-success">Java</span>
@@ -171,7 +203,7 @@ gtag('config', 'UA-112185819-2');
           <a class="nav-link" href="#about">About</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#experience">Experience</a>
+          <a class="nav-link" href="#professional-experience">Experience</a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="#skills">Skills</a>
@@ -192,13 +224,12 @@ gtag('config', 'UA-112185819-2');
   <!-- Header Starts -->
   <header class="text-center header">
     <img class="rounded-circle header__img" src="./img/oscarwang.jpg" alt="Oscar Wang">
-    <h1>Oscar Wang</h1>
-    <h2 class="text-muted">WANG, CHIH-HAO</h2>
+    <h2>Oscar Wang</h2>
+    <h3 class="text-muted">Chih-Hao Wang</h3>
     <div id="typed-strings">
-      <p>I love
-        <strong>programming, </strong>
-        <strong>idea sharing, </strong> and
-        <strong> running.</strong></p>
+      <p>I want to improve people's lives with
+        <strong>human-centered intelligent systems</strong>.
+    </p>
     </div>
     <span id="typed" class="header__typed"></span>
   </header>
@@ -207,29 +238,20 @@ gtag('config', 'UA-112185819-2');
   <main class="container main">
     <!-- About Starts -->
     <article id="about" class="main__article about">
-      <h1 class="nav-anchor text-center">About</h1>
+      <h2 class="nav-anchor text-center">About</h2>
       <hr />
       <section class="row justify-content-center">
         <article class="col-sm">
           <h3 class="text-center">Introduction</h3>
-          <p class="text-center">
-            Hello! I am Oscar Wang. I am a 4th-year student at Waseda University majoring Computer Science with a GPA of 3.96/4.0. During my 3rd year, I exchanged at the National University of Singapore</a> for one year to further strengthen my
-            skills.
-            My experience includes working as a Summer Intern at LeapMind, an E-commerce Backend Engineer Intern at Yahoo!, a Teacher Assistant at Waseda University, and a Student Researcher at Nagase Brothers Inc.</a>
+          <p>
+            Hello! I'm Oscar Wang. I'm an undergraduate student at Waseda University, majoring in Computer Science and Engineering. I've also participated in a one-year exchange program at the National University of Singapore</a>.
           </p>
-          <p class="text-center">
-            I love to build things that fulfill the needs in life using programming langauges, and I am very excited about how technology can make a positive impact on our society. My future goal is to build a
-            reliable team and strive
-            ceaselessly to improve the quality of human lives.
+          <p>
+            I love to build things that fulfill the needs of life, and I'm very excited about how human-centered design and intelligent machines can make a positive impact on our society. In addition to achieving excellent academic records at Waseda University, I seized precious research opportunities, undertook multiple internships at tech companies, and <a href="https://wasedatime.com" target="_blank">self-initiated a project</a> where I lead a team to develop a user-friendly web application with over 4,000 returning users and 300K page views. All these endeavors cultivated my enthusiasm for creating human-centered intelligent systems, and I aspire to lead teams of passionate members to build innovative products in the future.
           </p>
           <div class="row justify-content-center">
-            <a href="./WANG, CHIH-HAO Resume.pdf" download>
+            <a href="./Chih-Hao Wang Resume.pdf" target="_blank">
               <button type="button" class="btn btn-outline-dark center-block btn--download"><i class="fas fa-download"></i> Download My Resume</button>
-            </a>
-          </div>
-          <div class="row justify-content-center">
-            <a href="./WANG, CHIH-HAO Grade Report.pdf" download>
-              <button type="button" class="btn btn-outline-dark center-block btn--download"><i class="fas fa-download"></i> Download My Grade Report</button>
             </a>
           </div>
         </article>
@@ -238,7 +260,7 @@ gtag('config', 'UA-112185819-2');
           <figure class="text-center">
             <img class="about__img" src="./img/waseda.png" alt="Waseda University">
             <figcaption>
-              <p><i class="fas fa-university fa-lg"></i> Waseda University (GPA 3.96/4.0)</p>
+              <p><i class="fas fa-university fa-lg"></i> Waseda University (GPA 3.96/4.0, Major Rank 1/106)</p>
               <p><i class="fas fa-map-marker-alt fa-lg"></i> Tokyo, Japan</p>
               <p><i class="fas fa-calendar-alt fa-lg"></i> September 2015 - September 2020</p>
             </figcaption>
@@ -257,15 +279,15 @@ gtag('config', 'UA-112185819-2');
     <!-- About Ends -->
     <!-- Publication Starts -->
     <article id="experience" class="main__article">
-      <h1 class="nav-anchor text-center">Publication</h1>
+      <h2 class="nav-anchor text-center">Publication</h2>
       <hr />
       <section class="row justify-content-center align-items-center">
         <section class="col">
-          <p><strong>Natural Language Processing</strong></p>
-          <p><strong>Wang, C.</strong>, Kato, S., and Sakai, T.: RSL19BD at DBDC4: Ensemble of Decision Tree-based and LSTM-based Models, Proceedings of Chatbots and Conversational Agents and Dialogue Breakdown Detection Challenge (WOCHAT+DBDC), IWSDS 2019, to appear, 2019. <a href="https://arxiv.org/abs/1905.01799">Full Paper</a>, <a href="https://drive.google.com/file/d/13V74SG_EBkIbX8ioTnr6aRmzwSLDVuRM/view?usp=sharing">Poster</a></p>
+          <p><strong>Natural Language Processing (NLP)</strong></p>
+          <p><strong>Wang, C.</strong>, Kato, S., and Sakai, T.: RSL19BD at DBDC4: Ensemble of Decision Tree-based and LSTM-based Models, Proceedings of Chatbots and Conversational Agents and Dialogue Breakdown Detection Challenge (WOCHAT+DBDC), IWSDS 2019, to appear, 2019. <a href="https://arxiv.org/abs/1905.01799">Full Paper</a></p>
         <ol class="experience__ol">
             <li class="experience__li">
-      Researched into Decision Tree-based and DNN models for detecting breakdowns in a dialogue context. 
+      Researched into Decision Tree-based and DNN models for detecting breakdowns in a dialogue context.
             </li>
             <li class="experience__li">
       Achieved 1st place performance in the English dataset and 2nd place in the Japanese dataset.
@@ -276,17 +298,17 @@ gtag('config', 'UA-112185819-2');
     </article>
     <!-- Publication Ends -->
     <!-- Experience Starts -->
-    <article id="experience" class="main__article">
-      <h1 class="nav-anchor text-center">Experience</h1>
+    <article id="professional-experience" class="main__article">
+      <h2 class="nav-anchor text-center">Professional Experience</h2>
       <hr />
       <article class="row justify-content-center align-items-center">
         <section class="col-sm">
           <figure class="text-center">
             <img class="experience__img--wide" src="./img/leapmind.png" alt="LeapMind">
             <figcaption>
-              <p><i class="fas fa-building fa-lg"></i> LeapMind</p>
-              <p><i class="fas fa-briefcase fa-lg"></i> Summer Intern (Deep Learning)</p>
-              <p><i class="fas fa-calendar-alt fa-lg"></i> August 2019 - September 2019</p>
+              <p class="experience__p"><i class="fas fa-building fa-lg"></i> LeapMind</p>
+              <p class="experience__p"><i class="fas fa-briefcase fa-lg"></i> Summer Intern (Deep Learning)</p>
+              <p class="experience__p"><i class="fas fa-calendar-alt fa-lg"></i> August 2019 - September 2019</p>
             </figcaption>
           </figure>
         </section>
@@ -312,9 +334,9 @@ gtag('config', 'UA-112185819-2');
           <figure class="text-center">
             <img class="experience__img--wide" src="./img/yahoo.png" alt="Yahoo!">
             <figcaption>
-              <p><i class="fas fa-building fa-lg"></i> Yahoo!</p>
-              <p><i class="fas fa-briefcase fa-lg"></i> E-commerce Backend Engineer Intern</p>
-              <p><i class="fas fa-calendar-alt fa-lg"></i> July 2018 - August 2018</p>
+              <p class="experience__p"><i class="fas fa-building fa-lg"></i> Yahoo!</p>
+              <p class="experience__p"><i class="fas fa-briefcase fa-lg"></i> E-commerce Backend Engineer Intern</p>
+              <p class="experience__p"><i class="fas fa-calendar-alt fa-lg"></i> July 2018 - August 2018</p>
             </figcaption>
           </figure>
         </section>
@@ -324,7 +346,10 @@ gtag('config', 'UA-112185819-2');
               Created RESTful APIs and negotiated with designers and frontend developers in a scrum team.
             </li>
             <li class="experience__li">
-              Increased throughput by 274% with 95th percentile response time less than 200ms using Redis.
+              Participated in the product design process to develop a prototype with 2 designers, 2 frontend engineers, and a product manager.
+            </li>
+            <li class="experience__li">
+              Conducted usability testing and increased throughput by 274% with 95th percentile response time less than 200ms using Redis.
             </li>
             <li class="experience__li">
               Scaled the project with load balancing and boosted performance using proxy caching.
@@ -340,9 +365,9 @@ gtag('config', 'UA-112185819-2');
           <figure class="text-center">
             <img class="experience__img" src="./img/waseda.png" alt="Waseda University">
             <figcaption>
-              <p><i class="fas fa-building fa-lg"></i> Waseda University</p>
-              <p><i class="fas fa-briefcase fa-lg"></i> Teaching Assistant</p>
-              <p><i class="fas fa-calendar-alt fa-lg"></i> April 2017 - August 2017</p>
+              <p class="experience__p"><i class="fas fa-building fa-lg"></i> Waseda University</p>
+              <p class="experience__p"><i class="fas fa-briefcase fa-lg"></i> Teaching Assistant</p>
+              <p class="experience__p"><i class="fas fa-calendar-alt fa-lg"></i> April 2017 - August 2017</p>
             </figcaption>
           </figure>
         </section>
@@ -362,9 +387,9 @@ gtag('config', 'UA-112185819-2');
           <figure class="text-center">
             <img class="experience__img--wide" src="./img/nagase.jpg" alt="Nagase Brothers Inc.">
             <figcaption>
-              <p><i class="fas fa-building fa-lg"></i> Nagase Brothers Inc.</p>
-              <p><i class="fas fa-briefcase fa-lg"></i> Web Designer Intern</p>
-              <p><i class="fas fa-calendar-alt fa-lg"></i> February 2016 - April 2016</p>
+              <p class="experience__p"><i class="fas fa-building fa-lg"></i> Nagase Brothers Inc.</p>
+              <p class="experience__p"><i class="fas fa-briefcase fa-lg"></i> Student Researcher (Web Design)</p>
+              <p class="experience__p"><i class="fas fa-calendar-alt fa-lg"></i> February 2016 - April 2016</p>
             </figcaption>
           </figure>
         </section>
@@ -380,29 +405,111 @@ gtag('config', 'UA-112185819-2');
         </section>
       </article>
     </article>
-    <!-- <article class="skills__article skills-article">
+    <!-- Professional Experience Ends -->
+    <!-- Research Experience Starts -->
+    <article id="research-experience" class="main__article">
+      <h2 class="nav-anchor text-center">Research Experience</h2>
+      <hr />
+      <article class="row justify-content-center align-items-center">
+        <section class="col-sm">
+          <figure class="text-center">
+            <img class="experience__img" src="./img/rsl.png" alt="Waseda University Sakai Laboratory">
+            <figcaption>
+              <p class="experience__p"><i class="fas fa-building fa-lg"></i> Waseda University Sakai Laboratory</p>
+              <p class="experience__p"><i class="fas fa-briefcase fa-lg"></i> Research Member</p>
+              <p class="experience__p"><i class="fas fa-calendar-alt fa-lg"></i> Sep 2018 - Present</p>
+            </figcaption>
+          </figure>
+        </section>
+        <section class="col-sm">
+          <ol class="experience__ol">
+            <li class="experience__li">
+              Investigating ML approaches for NLP, including sentiment analysis [<a href="https://github.com/OscarWang114/sentiment-analysis-imdb">project</a>], dialogue breakdown
+              detection [<a href="https://arxiv.org/abs/1905.01799">published paper</a>], and dialogue nugget detection.
+            </li>
+          </ol>
+        </section>
+      </article>
+    </h2>
+    <!-- Research Experience Ends -->
+    <!-- Projects Starts -->
+    <article id="projects" class="projects">
+      <h2 class="nav-anchor text-center">Selected Projects</h2>
+      <hr />
+      <p class="text-center projects__text">
+        More available on <a href="https://github.com/OscarWang114">my GitHub profile</a>!
+      </p>
+      <article class="projects__article projects-article wasedatime">
+        <h3 class="text-center">WasedaTime</h3>
+        <p class="text-center">Leading a 3-person team to build a web app with over 4,000 returning users and 300K page views.</p>
+        <div class="row justify-content-center">
+          <img srcset="./img/projects/wasedatime-375w.png 375w,
+                       ./img/projects/wasedatime-2560w.png 2560w" sizes="(max-width: 575px) 250px, 40vw" src="./img/projects/wasedatime-2560w.png" alt="WasedaTime">
+        </div>
+        <div class="row justify-content-center projects-article__learn-more">
+          <button type="button" class="btn-lg btn-success projects-article__btn" data-toggle="modal" data-target="#wasedatime-modal">
+            Learn More
+          </button>
+        </div>
+      </article>
+      <article class="projects__article projects-article sentiment-analysis">
+        <h3 class="text-center">Sentiment Analysis on Movie Reviews</h3>
+        <p class="text-center">A Kaggle Challenge where I achieved an AUC score above 0.90 with Deep Neural Networks.</p>
+        <div class="row justify-content-center">
+          <img class="sentiment-analysis__img" src="./img/projects/sentiment_analysis.png" alt="Sentiment Analysis">
+        </div>
+        <div class="row justify-content-center projects-article__learn-more">
+          <button type="button" class="btn-lg btn-success" data-toggle="modal" data-target="#sentiment-analysis-modal">
+            Learn More
+          </button>
+        </div>
+      </article>
+<!--       <article class="projects__article projects-article waseda-syllabus-scraper">
+        <h3 class="text-center">Waseda Syllabus Scraper</h3>
+        <div class="row justify-content-center">
+         <img class="waseda-syllabus-scraper__img" src="./img/projects/scrapy.png" alt="Scrapy">
+        </div>
+        <div class="row justify-content-center projects-article__learn-more">
+          <button type="button" class="btn-lg btn-success" data-toggle="modal" data-target="#waseda-syllabus-scraper-modal">
+            Learn More
+          </button>
+        </div>
+      </article> -->
+      <article class="projects__article projects-article lisa">
+        <h3 class="text-center">LISA: Levels Integrated Secretarial Agent</h3>
+        <p class="text-center">A desktop managerial application created for life insurance agents.</p>
+        <div class="lisa__row">
+          <img class="lisa__img" src="./img/projects/lisa.png" alt="LISA: Levels Integrated Secretarial Agent">
+        </div>
+        <div class="row justify-content-center projects-article__learn-more">
+          <button type="button" class="btn-lg btn-success" data-toggle="modal" data-target="#lisa-modal">
+            Learn More
+          </button>
+        </div>
+      </article>
+    </article>
+    <!-- Projects Ends -->
+    <!-- Skills Starts -->
+    <article id="skills" class="main__article">
+      <h2 class="nav-anchor text-center">Skills</h2>
+      <hr />
+      <article class="skills__article skills-article">
         <h3 class="text-center">Programming Languages</h3>
         <div class="row justify-content-center skills-article__row">
           <figure class="text-center skills-article__figure">
-            <img class="skills-article__img" src="./img/icons/java.png" alt="Java">
-            <figcaption class="skills-article__figcaption">Java</figcaption>
-          </figure>
-          <figure class="text-center skills-article__figure">
             <img class="skills-article__img" src="./img/icons/python.png" alt="Python">
             <figcaption class="skills-article__figcaption">Python</figcaption>
+          </figure>
+          <figure class="text-center skills-article__figure">
+            <img class="skills-article__img" src="./img/icons/java.png" alt="Java">
+            <figcaption class="skills-article__figcaption">Java</figcaption>
           </figure>
           <figure class="text-center skills-article__figure">
             <img class="skills-article__img" src="./img/icons/c.png" alt="C">
             <figcaption class="skills-article__figcaption">C</figcaption>
           </figure>
         </div>
-      </article> -->
-    </article>
-    <!-- Experience Ends -->
-    <!-- Skills Starts -->
-    <article id="skills" class="main__article">
-      <h1 class="nav-anchor text-center">Skills</h1>
-      <hr />
+      </article>
       <article class="skills__article skills-article">
         <h3 class="text-center">Machine Learning</h3>
         <div class="row justify-content-center skills-article__row">
@@ -413,23 +520,6 @@ gtag('config', 'UA-112185819-2');
           <figure class="text-center skills-article__figure">
             <img class="skills-article__img--wide" src="./img/icons/tensorflow.svg" alt="TensorFlow">
             <figcaption class="skills-article__figcaption">TensorFlow</figcaption>
-          </figure>
-        </div>
-      </article>
-      <article class="skills__article skills-article">
-        <h3 class="text-center">Programming Languages</h3>
-        <div class="row justify-content-center skills-article__row">
-          <figure class="text-center skills-article__figure">
-            <img class="skills-article__img" src="./img/icons/java.png" alt="Java">
-            <figcaption class="skills-article__figcaption">Java</figcaption>
-          </figure>
-          <figure class="text-center skills-article__figure">
-            <img class="skills-article__img" src="./img/icons/python.png" alt="Python">
-            <figcaption class="skills-article__figcaption">Python</figcaption>
-          </figure>
-          <figure class="text-center skills-article__figure">
-            <img class="skills-article__img" src="./img/icons/c.png" alt="C">
-            <figcaption class="skills-article__figcaption">C</figcaption>
           </figure>
         </div>
       </article>
@@ -522,55 +612,9 @@ gtag('config', 'UA-112185819-2');
       </article>
     </article>
     <!-- Skills Ends -->
-    <!-- Projects Starts -->
-    <article id="projects" class="projects">
-      <h1 class="nav-anchor text-center">Projects</h1>
-      <hr />
-      <article class="projects__article projects-article wasedatime">
-        <h3 class="text-center">WasedaTime</h3>
-        <div class="row justify-content-center">
-          <img srcset="./img/projects/wasedatime-375w.png 375w,
-                       ./img/projects/wasedatime-2560w.png 2560w" sizes="(max-width: 575px) 300px, 60vw" src="./img/projects/wasedatime-2560w.png" alt="WasedaTime">
-        </div>
-        <div class="row justify-content-center projects-article__learn-more">
-          <button type="button" class="btn-lg btn-success projects-article__btn" data-toggle="modal" data-target="#wasedatime-modal">
-            Learn More
-          </button>
-        </div>
-      </article>
-      <article class="projects__article projects-article waseda-syllabus-scraper">
-        <h3 class="text-center">Waseda Syllabus Scraper</h3>
-        <div class="row justify-content-center">
-          <figure class="text-center">
-            <img class="waseda-syllabus-scraper__img" src="./img/projects/scrapy.png" alt="Scrapy">
-            <figcaption>Scrapy</figcaption>
-          </figure>
-        </div>
-        <div class="row justify-content-center projects-article__learn-more">
-          <button type="button" class="btn-lg btn-success" data-toggle="modal" data-target="#waseda-syllabus-scraper-modal">
-            Learn More
-          </button>
-        </div>
-      </article>
-      <article class="projects__article projects-article lisa">
-        <h3 class="text-center">LISA: Levels Integrated Secretarial Agent</h3>
-        <div class="lisa__row">
-          <img class="lisa__img" src="./img/projects/lisa.png" alt="LISA: Levels Integrated Secretarial Agent">
-        </div>
-        <div class="row justify-content-center projects-article__learn-more">
-          <button type="button" class="btn-lg btn-success" data-toggle="modal" data-target="#lisa-modal">
-            Learn More
-          </button>
-        </div>
-      </article>
-      <p class="text-center projects__text">
-        More available on <a href="https://github.com/OscarWang114">my GitHub profile</a>!
-      </p>
-    </article>
-    <!-- Projects Ends -->
     <!-- Contact Starts -->
     <article id="contact" class="main__article contact">
-      <h1 class="nav-anchor text-center">Contact Me</h1>
+      <h2 class="nav-anchor text-center">Contact Me</h2>
       <hr />
       <ul class="list-inline text-center">
         <li class="list-inline-item text-center contact__list-item">
@@ -607,7 +651,7 @@ gtag('config', 'UA-112185819-2');
   <footer class="footer">
     <div class="container-fluid">
       <p class="text-center text-muted footer__text">
-        Last updated on 28 Oct. 2019
+        Last updated on 02 Jan. 2020
       </p>
       <p class="text-center text-muted footer__text">
         The design layout of this website is inspired by <a class="footer__anchor" href="https://github.com/bryanpanesa">@bryanpanesa</a> and <a class="footer__anchor" href="https://github.com/stevensawtelle">@stevensawtelle</a>.
